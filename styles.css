@@ -1,0 +1,132 @@
+/* Universal */
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 3rem 3rem 0 3rem;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: baseline;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 1rem;
+    color: gray;
+}
+a:hover {
+    color: black;
+}
+
+/* Hero */
+
+.hero {
+    background-image: url(./Resources/Images/Hero-Banner.jpeg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero-h2 {
+    text-align: center;
+    padding: 3rem 3rem;
+    display: inline-flex;
+    font-size: 2rem;
+    background-color: hsla(0, 100%, 0%, 0.5);
+}
+
+/* List */
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.list li {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+/* Business Team */
+
+.team {
+    background-image: url(./Resources/Images/Employee-Background.jpeg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.team li {
+    background-color: hsla(0, 100%, 0%, 0.5);
+    padding: 1rem;
+    width: 15rem;
+    color: white;
+}
+
+.team li img {
+    height: 20rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Footer */
+
+.footer h3, .footer p {
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+}
